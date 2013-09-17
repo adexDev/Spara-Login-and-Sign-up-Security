@@ -16,6 +16,11 @@
 		84FD9FCA17DE358300C52548 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FD9FC917DE358300C52548 /* Default.png */; };
 		84FD9FCC17DE358300C52548 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FD9FCB17DE358300C52548 /* Default@2x.png */; };
 		84FD9FCE17DE358300C52548 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FD9FCD17DE358300C52548 /* Default-568h@2x.png */; };
+		84FD9FD517DE359E00C52548 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FD9FD417DE359E00C52548 /* Security.framework */; };
+		84FD9FD817DE46DC00C52548 /* GGKeyChainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FD9FD717DE46DC00C52548 /* GGKeyChainWrapper.m */; };
+		84FD9FDB17DF6FCF00C52548 /* GGUserNameQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FD9FDA17DF6FCF00C52548 /* GGUserNameQuery.m */; };
+		84FD9FDE17DF888400C52548 /* GGSignUpOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FD9FDD17DF888400C52548 /* GGSignUpOperation.m */; };
+		84FD9FE117DF8D6E00C52548 /* GGActiveSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FD9FE017DF8D6E00C52548 /* GGActiveSession.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,16 @@
 		84FD9FC917DE358300C52548 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		84FD9FCB17DE358300C52548 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		84FD9FCD17DE358300C52548 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		84FD9FD417DE359E00C52548 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		84FD9FD617DE46DC00C52548 /* GGKeyChainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGKeyChainWrapper.h; sourceTree = "<group>"; };
+		84FD9FD717DE46DC00C52548 /* GGKeyChainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGKeyChainWrapper.m; sourceTree = "<group>"; };
+		84FD9FD917DF6FCF00C52548 /* GGUserNameQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGUserNameQuery.h; sourceTree = "<group>"; };
+		84FD9FDA17DF6FCF00C52548 /* GGUserNameQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGUserNameQuery.m; sourceTree = "<group>"; };
+		84FD9FDC17DF888400C52548 /* GGSignUpOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSignUpOperation.h; sourceTree = "<group>"; };
+		84FD9FDD17DF888400C52548 /* GGSignUpOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSignUpOperation.m; sourceTree = "<group>"; };
+		84FD9FDF17DF8D6E00C52548 /* GGActiveSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGActiveSession.h; sourceTree = "<group>"; };
+		84FD9FE017DF8D6E00C52548 /* GGActiveSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGActiveSession.m; sourceTree = "<group>"; };
+		84FD9FE317DF908A00C52548 /* GGSecurityConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSecurityConstants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84FD9FD517DE359E00C52548 /* Security.framework in Frameworks */,
 				84FD9FB817DE358200C52548 /* UIKit.framework in Frameworks */,
 				84FD9FBA17DE358200C52548 /* Foundation.framework in Frameworks */,
 				84FD9FBC17DE358200C52548 /* CoreGraphics.framework in Frameworks */,
@@ -51,6 +67,15 @@
 		84FD9FAB17DE358200C52548 = {
 			isa = PBXGroup;
 			children = (
+				84FD9FDC17DF888400C52548 /* GGSignUpOperation.h */,
+				84FD9FDD17DF888400C52548 /* GGSignUpOperation.m */,
+				84FD9FDF17DF8D6E00C52548 /* GGActiveSession.h */,
+				84FD9FE017DF8D6E00C52548 /* GGActiveSession.m */,
+				84FD9FD917DF6FCF00C52548 /* GGUserNameQuery.h */,
+				84FD9FDA17DF6FCF00C52548 /* GGUserNameQuery.m */,
+				84FD9FD617DE46DC00C52548 /* GGKeyChainWrapper.h */,
+				84FD9FD717DE46DC00C52548 /* GGKeyChainWrapper.m */,
+				84FD9FE417DF94EF00C52548 /* constant */,
 				84FD9FBD17DE358200C52548 /* Security */,
 				84FD9FB617DE358200C52548 /* Frameworks */,
 				84FD9FB517DE358200C52548 /* Products */,
@@ -68,6 +93,7 @@
 		84FD9FB617DE358200C52548 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84FD9FD417DE359E00C52548 /* Security.framework */,
 				84FD9FB717DE358200C52548 /* UIKit.framework */,
 				84FD9FB917DE358200C52548 /* Foundation.framework */,
 				84FD9FBB17DE358200C52548 /* CoreGraphics.framework */,
@@ -97,6 +123,14 @@
 				84FD9FCD17DE358300C52548 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84FD9FE417DF94EF00C52548 /* constant */ = {
+			isa = PBXGroup;
+			children = (
+				84FD9FE317DF908A00C52548 /* GGSecurityConstants.h */,
+			);
+			name = constant;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +201,10 @@
 			files = (
 				84FD9FC417DE358300C52548 /* main.m in Sources */,
 				84FD9FC817DE358300C52548 /* GGAppDelegate.m in Sources */,
+				84FD9FD817DE46DC00C52548 /* GGKeyChainWrapper.m in Sources */,
+				84FD9FDB17DF6FCF00C52548 /* GGUserNameQuery.m in Sources */,
+				84FD9FDE17DF888400C52548 /* GGSignUpOperation.m in Sources */,
+				84FD9FE117DF8D6E00C52548 /* GGActiveSession.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
